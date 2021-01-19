@@ -1,0 +1,20 @@
+.cart{
+    height: 300px;
+    background: url("https://www.nwg.no/wp-content/uploads/cool-bg.jpg");
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1% auto;
+    
+}
+.cart span{
+   color: seashell;
+   font-size: 3em;
+   margin: 0 auto;
+    
+}
+
+.diffrentcart{
+    background: url("https://lh3.googleusercontent.com/proxy/xCcdJwmtzfTvuqsZBbTMdMHISjtSd9r1mgJ-bxQXm306cSNikr8UVGPZhMU6CVdEdVbLXG4mx7_ng0FiqPEe0u43iaxTn8z0rrJqQT5cJ2RXYF_PMH8H7KJw-Z5OVa6xlB0c1XjUCGAQY9u6PMLB");
+}

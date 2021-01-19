@@ -1,9 +1,41 @@
 .defaultbutton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     height: 50px;
-    width: 20%;
-    background-color: aqua;
+    width: 10%;
+    background-color: grey;
+    margin:1%;
+    border-radius: 5px;
 }
 
 a{
     text-decoration: none;
+    color: white;
+}
+
+.greenbutton{
+    background-color: #1edd87;
+}
+
+.pinkbutton{
+    background-color: #dd1e8d;
+}
+
+.bluebutton{
+    background-color: #1372e4;
+    font-weight: 800;
+}
+
+.whitecircled{
+    background: white;
+    color: black;
+    border-radius: 25px;
+    border: 0.5px solid grey;
+}
+
+.defaultbutton:hover{
+    transform: scale(1.1);
+    transition: all 0.5s ease;
+    filter: hue-rotate(32deg);
 }
