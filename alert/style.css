@@ -1,0 +1,35 @@
+.default{
+    width: 88%;
+    border: 2px solid #000000;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1% auto;
+    font-size: 1.1em;
+}.default .bold{
+    font-weight: 800;
+}
+
+.greenborder{
+    border: 2px solid #acf0d1;
+}
+
+.redborder{
+    border: 2px solid #f83f37;
+}
+
+.yellowborder{
+    border: 2px solid #ffc65a;
+}
+
+.pinkborder{
+    border: 2px solid #f89390;
+}
+
+.blueborder{
+    border: 2px solid #37e2f8;
+}
+
