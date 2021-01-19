@@ -1,0 +1,35 @@
+.Card-product{
+height: 250px;
+background: white;
+display: flex;
+justify-content: flex-start;
+align-items: center;
+color: seashell;
+margin: 2% auto;
+box-shadow: 20px 2px 5px 1px rgba(0, 0, 0, 0.2);
+            
+
+
+}
+.Card-product img{
+ height: 250px; 
+ width: 250px;
+}
+
+.Card-product div{
+    padding: 1%;
+}
+
+.Card-product h3{
+    color: black;
+    font-size: 2em;
+    margin: 0.5% auto;
+}
+
+.Card-product span{
+    color: grey;
+}
+
+.Card-product span .bold{
+    font-weight: 900;
+}
