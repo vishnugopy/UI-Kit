@@ -6,23 +6,26 @@
     justify-content: space-around;
     align-items: center;
     color: rgba(0,0,0,0.4);
+    flex-wrap: wrap;
 }
 
 .icons{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    
 }
 
 .icons a{
     color: rgba(0,0,0,0.4);
     font-size: 2em;
-    margin: 5%;
+    margin: 10%;
     cursor: pointer;
 }
 
 .icons a:hover{
     color: rgba(0,0,0,1);
+    
 }
 
 .text span{

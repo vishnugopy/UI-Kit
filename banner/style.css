@@ -1,0 +1,23 @@
+.banner{
+    height:550px;
+    display: flex;
+    background:  linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),
+    url("https://brianlagunas.com/wp-content/uploads/2013/05/cool-bg.jpg");
+    align-items: center;
+    padding: 2%;
+}
+.banner div{
+    width:80%;
+    margin:0 auto;
+    color: white;
+}
+
+.banner div h2{
+    font-size: 2em;
+    margin: 1% 0;
+}
+.banner div h4{
+    font-size: 1em;
+    opacity: 0.6;
+    margin: 1% 0;
+}
