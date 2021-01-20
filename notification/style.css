@@ -1,0 +1,34 @@
+.notification{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1%;
+    border: 1px solid grey;
+}
+
+.imginfo{
+    display: flex;
+    align-items: center;
+    width: 60%;
+}
+
+.info span{
+    color: grey;
+    margin: 0;
+    font-size: 1em;
+}
+
+.info h4{
+    color: rgb(75, 75, 75);
+    margin: 0;
+    font-size: 1.2em;
+}
+
+.notification a{
+    text-decoration: none;
+    color: grey;
+}
+.notification a:hover{
+    
+    color: black;
+}
