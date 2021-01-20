@@ -7,6 +7,7 @@
     background-color: grey;
     margin:1%;
     border-radius: 5px;
+    transition: all 0.5s ease;
 }
 
 a{
@@ -36,6 +37,5 @@ a{
 
 .defaultbutton:hover{
     transform: scale(1.1);
-    transition: all 0.5s ease;
-    filter: hue-rotate(32deg);
+    filter:hue-rotate(50deg);
 }
