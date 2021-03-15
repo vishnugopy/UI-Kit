@@ -1,0 +1,32 @@
+@import "../css/base/index.scss";
+
+.defaultbutton{
+    @include defaultbutton;
+
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.greenbutton{
+    background-color: $lightgreen;
+}
+
+.pinkbutton{
+    background-color: $lightpink;
+}
+
+.bluebutton{
+    background-color: $lightblue;
+    font-weight: 800;
+}
+
+.whitecircled{
+    background: $white;
+    color: $black;
+    border-radius: 25px;
+    border: 0.5px solid grey;
+}
+

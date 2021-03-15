@@ -1,25 +1,25 @@
-
-
-.defaultavathar{
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    margin: 1%;
+.defaultavathar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin: 1%;
 }
 
-.bigavatar{
-    width: 150px;
-    height:150px;
+.bigavatar {
+  width: 150px;
+  height: 150px;
 }
 
-.borderavatar{
-    border: 2px solid rgb(255, 255, 255);
+.borderavatar {
+  border: 2px solid #ffffff;
 }
 
-.squaravatar{
-    border-radius: 0; 
+.squaravatar {
+  border-radius: 0;
 }
 
-.avatarshadow{
-    box-shadow: 1px 2px 5px rgba(0,0,0,0.8);
+.avatarshadow {
+  -webkit-box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
+          box-shadow: 1px 2px 5px rgba(0, 0, 0, 0.8);
 }
+/*# sourceMappingURL=style.css.map */

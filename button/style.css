@@ -1,41 +1,51 @@
-.defaultbutton{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 50px;
-    width: 10%;
-    background-color: grey;
-    margin:1% 0%;
-    border-radius: 5px;
-    transition: all 0.5s ease;
+.defaultbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 10%;
+  background-color: grey;
+  margin: 1% 0%;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
-a{
-    text-decoration: none;
-    color: white;
+.defaultbutton:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: hue-rotate(50deg);
+          filter: hue-rotate(50deg);
 }
 
-.greenbutton{
-    background-color: #1edd87;
+a {
+  text-decoration: none;
+  color: white;
 }
 
-.pinkbutton{
-    background-color: #dd1e8d;
+.greenbutton {
+  background-color: #1edd87;
 }
 
-.bluebutton{
-    background-color: #1372e4;
-    font-weight: 800;
+.pinkbutton {
+  background-color: #f89390;
 }
 
-.whitecircled{
-    background: white;
-    color: black;
-    border-radius: 25px;
-    border: 0.5px solid grey;
+.bluebutton {
+  background-color: #acf0d1;
+  font-weight: 800;
 }
 
-.defaultbutton:hover{
-    transform: scale(1.1);
-    filter:hue-rotate(50deg);
+.whitecircled {
+  background: #ffffff;
+  color: #000000;
+  border-radius: 25px;
+  border: 0.5px solid grey;
 }
+/*# sourceMappingURL=style.css.map */

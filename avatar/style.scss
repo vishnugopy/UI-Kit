@@ -1,0 +1,23 @@
+@import "../css/base/index.scss";
+
+
+.defaultavathar{
+   @include avatar;
+}
+
+.bigavatar{
+    width: 150px;
+    height:150px;
+}
+
+.borderavatar{
+    border: 2px solid $white;
+}
+
+.squaravatar{
+    border-radius: 0; 
+}
+
+.avatarshadow{
+    box-shadow: 1px 2px 5px rgba(0,0,0,0.8);
+}

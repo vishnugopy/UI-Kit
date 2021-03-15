@@ -1,0 +1,42 @@
+@import "../css/base/index.scss";
+
+.navbar {
+	width: 98%;
+	padding: 1%;
+	background-color: $white;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	.redcirecle {
+		width: 100px;
+		height: 100px;
+		background-color: $lightred;
+		border-radius: 50%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	i {
+		color: $white;
+		font-size: 2em;
+	}
+	.info {
+		a {
+			text-decoration: none;
+			font-size: 1.5em;
+			color: grey;
+			&:nth-child(1) {
+				color: $black;
+				font-weight: 800;
+			}
+		}
+		width: 20%;
+		display: flex;
+		justify-content: space-evenly;
+		align-items: center;
+	}
+}
+
+.defaultavathar{
+	@include avatar;
+}

@@ -1,23 +1,57 @@
-.banner{
-    height:550px;
-    display: flex;
-    background:  linear-gradient(rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.8)),
-    url("https://brianlagunas.com/wp-content/uploads/2013/05/cool-bg.jpg");
-    align-items: center;
-    padding: 2%;
-}
-.banner div{
-    width:90%;
-    margin:0 auto;
-    color: white;
+.banner {
+  height: 550px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.8))), url("https://brianlagunas.com/wp-content/uploads/2013/05/cool-bg.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.8)), url("https://brianlagunas.com/wp-content/uploads/2013/05/cool-bg.jpg");
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2%;
 }
 
-.banner div h2{
-    font-size: 2em;
-    margin: 1% 0;
+.banner .defaultbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 10%;
+  background-color: grey;
+  margin: 1% 0%;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: #1edd87;
 }
-.banner div h4{
-    font-size: 1em;
-    opacity: 0.6;
-    margin: 1% 0;
+
+.banner .defaultbutton:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: hue-rotate(50deg);
+          filter: hue-rotate(50deg);
 }
+
+.banner div {
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+}
+
+.banner div h2 {
+  font-size: 2em;
+  margin: 1% 0;
+}
+
+.banner div h4 {
+  font-size: 1em;
+  opacity: 0.6;
+  margin: 1% 0;
+}
+/*# sourceMappingURL=style.css.map */

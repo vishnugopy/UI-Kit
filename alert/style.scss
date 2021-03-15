@@ -1,0 +1,38 @@
+@import "../css/base/index.scss";
+
+.default {
+    width: 94%;
+    border: 2px solid $black;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1%;
+    margin: 1% auto;
+    font-size: 1.1em;
+
+    .bold {
+        font-weight: 800;
+    }
+}
+
+.greenborder {
+    border: 2px solid $lightblue;
+}
+
+.redborder {
+    border: 2px solid $lightred;
+}
+
+.yellowborder {
+    border: 2px solid $lightyellow;
+}
+
+.pinkborder {
+    border: 2px solid $lightpink;
+}
+
+.blueborder {
+    border: 2px solid $lightenblue;
+}

@@ -1,35 +1,43 @@
-.mainfoot{
-    background:whitesmoke;
-    height: 200px;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    color: rgba(0,0,0,0.4);
-    flex-wrap: wrap;
+.mainfoot {
+  background: whitesmoke;
+  height: 200px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: rgba(0, 0, 0, 0.4);
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
-.icons{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    
+.icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
-.icons a{
-    color: rgba(0,0,0,0.4);
-    font-size: 2em;
-    margin: 10%;
-    cursor: pointer;
+.icons a {
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 2em;
+  margin: 10%;
+  cursor: pointer;
 }
 
-.icons a:hover{
-    color: rgba(0,0,0,1);
-    
+.icons a:hover {
+  color: black;
 }
 
-.text span{
-
-    font-size: 1.5em;
-
+.text span {
+  font-size: 1.5em;
 }
+/*# sourceMappingURL=style.css.map */

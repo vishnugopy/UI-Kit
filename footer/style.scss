@@ -1,0 +1,31 @@
+@import "../css/base/index.scss";
+
+.mainfoot {
+	background: $whitesmoke;
+	height: 200px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	color: rgba(0,0,0,0.4);
+	flex-wrap: wrap;
+}
+.icons {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	a {
+		color: rgba(0,0,0,0.4);
+		font-size: 2em;
+		margin: 10%;
+		cursor: pointer;
+		&:hover {
+			color: rgba(0,0,0,1);
+		}
+	}
+}
+.text {
+	span {
+		font-size: 1.5em;
+	}
+}
