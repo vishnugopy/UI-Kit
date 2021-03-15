@@ -1,0 +1,25 @@
+@import "../css/base/index.scss";
+
+.searchform {
+	width: 98%;
+	border: 2px solid $lightgreen;
+	display: flex;
+	justify-content: space-between;
+	padding: 0 1%;
+	border-radius: 5px;
+	input {
+		width: 100%;
+		outline: none;
+		font-size: 2em;
+		padding: 0 1%;
+		border: none;
+	}
+	.defaultbutton {
+		@include defaultbutton;
+		background: $lightgreen;
+		i {
+			font-size: 1.1em;
+			margin: 0 5%;
+		}
+	}
+}

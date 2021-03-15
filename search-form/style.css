@@ -1,21 +1,53 @@
-.searchform{
-    width:98%;
-    border: 2px solid #2bde8d ;
-    display: flex;
-    justify-content: space-between;
-    padding: 0 1%;
-    border-radius: 5px;
+.searchform {
+  width: 98%;
+  border: 2px solid #1edd87;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 0 1%;
+  border-radius: 5px;
 }
 
-.searchform input{
-    width: 100%;
-    outline: none;
-    font-size: 2em;
-    padding: 0 1%;
-    border: none;
+.searchform input {
+  width: 100%;
+  outline: none;
+  font-size: 2em;
+  padding: 0 1%;
+  border: none;
 }
 
-.searchform .defaultbutton i{
-    font-size: 1.1em;
-   margin: 0 5%;
+.searchform .defaultbutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 50px;
+  width: 10%;
+  background-color: grey;
+  margin: 1% 0%;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
+  background: #1edd87;
 }
+
+.searchform .defaultbutton:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-filter: hue-rotate(50deg);
+          filter: hue-rotate(50deg);
+}
+
+.searchform .defaultbutton i {
+  font-size: 1.1em;
+  margin: 0 5%;
+}
+/*# sourceMappingURL=style.css.map */
